@@ -8,7 +8,7 @@ public class Bashscript {
 	public static void main(String[] args) {
 		  Process p;
 		  try {
-		   String[] cmd = { "sh", "/home/ubuntu/arithmetic.sh"};
+		   String[] cmd = { "sh", "/arithmetic/arithmetic.sh"};
 		   p = Runtime.getRuntime().exec(cmd); 
 		   p.waitFor(); 
 		   BufferedReader reader=new BufferedReader(new InputStreamReader(
