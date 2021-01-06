@@ -1,4 +1,12 @@
 #!/bin/bash
+export JAVA_HOME=/usr/local/java
+PATH=/usr/local/java/bin:{PATH}
+for i in `ls ./lib/*.jar`
+do
+   THE_CLASSPATH=${THE_CLASSPATH}:${i}	
+done
+java -cp ".:{THE_CLASSPATH}"
+
 echo "Enter any two numbers"
 read val1
 read val2
