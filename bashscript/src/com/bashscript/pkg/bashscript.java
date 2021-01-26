@@ -9,11 +9,9 @@ public class bashscript {
 		  Process p;
 		  Class.forName("bashscript");
 		  try {
-<<<<<<< HEAD:bashscript/src/com/bashscript/pkg/Bashscript.java
-		   String[] cmd = {"sh","arithmetic.sh"};
-=======
+
 		   String[] cmd = {"sh","arithmetic.sh"}; 
->>>>>>> bf4e377979eda7047a14a84b158a83d5f59c4320:bashscript/src/com/bashscript/pkg/bashscript.java
+
 		   p = Runtime.getRuntime().exec(cmd); 
 		   p.waitFor(); 
 		   BufferedReader reader=new BufferedReader(new InputStreamReader(p.getInputStream())); 
