@@ -38,6 +38,6 @@ jobs:
       - name: Run a multi-line script
         working-directory: ${{runner.working-directory}}
         run: |
-              cd bashscript/src/com/pkg
+              cd bashscript/src/com/bashscript/pkg
               sudo ls -ltr | grep java
        
