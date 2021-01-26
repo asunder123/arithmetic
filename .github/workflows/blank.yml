@@ -39,6 +39,6 @@ jobs:
         working-directory: ${{runner.working-directory}}
         run: |
               cd bashscript
-              cd src
+              cd src/com
               sudo ls -ltr
        
