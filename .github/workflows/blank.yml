@@ -30,7 +30,7 @@ jobs:
       - name: Run a one-line script
         uses: actions/setup-java@v1
         with:
-         java-version: 1.8
+         java-version: 1.11
 
  
 
