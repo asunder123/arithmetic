@@ -41,4 +41,5 @@ jobs:
               cd bashscript/src/com/bashscript/pkg
               sudo ls -ltr | grep java
               javac -d . bashscript.java
+              javac bashscript.java
        
