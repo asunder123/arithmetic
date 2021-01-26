@@ -41,7 +41,5 @@ jobs:
               cd bashscript
               cd src
               cd com
-              cd pkg
               sudo ls -ltr
-              java -cp bashscript
        
