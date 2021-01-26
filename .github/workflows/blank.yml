@@ -40,6 +40,5 @@ jobs:
         run: |
               cd bashscript
               cd src
-              cd com
               sudo ls -ltr
        
