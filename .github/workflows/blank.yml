@@ -38,7 +38,7 @@ jobs:
       - name: Run a multi-line script
         working-directory: ${{runner.working-directory}}
         run: |
-              cd /bashscript
+              cd bashscript
               sudo ls -ltr
         
        
