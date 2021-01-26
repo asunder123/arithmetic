@@ -1,0 +1,19 @@
+{
+  "name": "arithmetic",
+  "version": "1.0.0",
+  "description": "This is a bash script triggered by a Java program to perform simple arithmetic",
+  "main": "index.js",
+  "scripts": {
+    "test": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asunder123/arithmetic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asunder123/arithmetic/issues"
+  },
+  "homepage": "https://github.com/asunder123/arithmetic#readme"
+}
